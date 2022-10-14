@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/LICORS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/LICORS/LICORS_{{ version }}.tar.gz
-  sha256: c04d2fbc56be7b3a6e167b92cc9d5fffe6c3a334afac2b4f1a3bc81a66103e5d
+  sha256: 75f9aa6019f133d9967f53c4c8201744b10f46fc07eaab7e634b82290d492cc9
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
