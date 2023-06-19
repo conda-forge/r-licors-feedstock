@@ -1,11 +1,11 @@
-About r-licors
-==============
+About r-licors-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-licors-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.stat.cmu.edu/~gmg
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-licors-feedstock/blob/main/LICENSE.txt)
 
 Summary: Estimates predictive states from spatio-temporal data and consequently can provide provably optimal forecasts. Currently this implementation supports an N-dimensional spatial grid observed over equally spaced time intervals. E.g. a video is a 2D spatial systems observed over time. This package implements mixed LICORS, has plotting tools (for (1+1)D and (2+1)D systems), and methods for optimal forecasting.  Due to memory limitations it is recommend to only analyze (1+1)D systems.
 
